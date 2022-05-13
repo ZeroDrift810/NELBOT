@@ -23,7 +23,7 @@ If you do not have the madden companion app you will need to download that from 
 Then do the following steps
 1. Find your league in the Madden companion app and click on it
 2. Navigate to Export data section
-3. Type in the madden exporter url. It will be on the Madden Data page of the exporter and be the following URL: https://mxport.herokuapp.com/USERNAME (again replace that with your username). *unfortunately you have to type this because EA is ass and wont let you copy and paste)
+3. Type in the madden exporter url. It will be on the Madden Data page of the exporter and be the following URL: https://mxport.herokuapp.com/USERNAME (again replace that with your username). *unfortunately you have to type this because EA is ass and wont let you copy and paste)*
 4. choose league info, weekly stats, and scroll down on the week number to find All Weeks and choose that.
 5. Finally export!
 6. (if something fails first try retrying it can just error sometimes)
