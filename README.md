@@ -23,14 +23,14 @@ If you do not have the madden companion app you will need to download that from 
 Then do the following steps
 1. Find your league in the Madden companion app and click on it
 2. Navigate to Export data section
-3. Type in the madden exporter url. It will be on the Madden Data page of the exporter and be the following URL: https://mxport.herokuapp.com/USERNAME (again replace that with your username). *unfortunately you have to type this because EA is ass and wont let you copy and paste)*
+3. Type in the madden exporter url. It will be on the Madden Data page of the exporter and be the following URL: https://mxport.herokuapp.com/USERNAME (again replace that with your username). *unfortunately you have to type this because EA is ass and wont let you copy and paste*
 4. choose league info, weekly stats, and scroll down on the week number to find All Weeks and choose that.
 5. Finally export!
 6. (if something fails first try retrying it can just error sometimes)
-7. you will see your data on the madden data page on a refresh, make sure you wait until its all down and hit the download JSON
+7. you will see your data on the madden data page on a refresh, make sure you wait until its all done and hit the download JSON (it downloads as a zip file)
 8. With this zip file, unzip it however you choose
 9. finally, run the /import_league command in your discord, the two required options are the following files: schedules.json and teams.json. Both of those are in the zip file
-10. run the command, if you see uploaded :) then you are all set! if it fails, well contact me I will see what goes wrong :) 
+10. run the command, if you see `uploaded :)` then you are all set! if it fails, well contact me I will see what goes wrong :) 
 
 ## Commands
 
