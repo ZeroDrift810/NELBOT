@@ -7,12 +7,29 @@
 Add the snallabot to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=970091866450198548&permissions=268445712&scope=applications.commands%20bot). This will add the following slash commands: 
 
 ```
+/league_export
 /import_league
 /create_game_channels
 /clear_game_channels
 ```
 
 ### Add your madden league
+
+#### Recommended Way with Madden Companion App
+
+Now the bot has been added to your discord server do the following:
+1. run `/league_export`, this will give you a URL that will be the export URL. whenever you run this command it will give you the same URL!
+2. Open the Madden Companion App
+3. Find your league in the app and click on it
+4. Navigate to the Export section
+5. In the web url box, type in the export URL you were given. I am sorry its so long!! but type carefully :)
+6. Check the league info, and weekly stats boxes
+7. For export week, export All Weeks (scroll to the bottom of the weeks!)
+8. Finally, export! Once it is done, the bot is all setup to use
+
+#### Non Recommended way with manual file import
+
+The above method is much easier, but if things go wrong this is the other option to add the league to the bot.
 
 This process requires to download files from https://maddenexporter.herokuapp.com/ . 
 
@@ -22,7 +39,7 @@ If you do not have the madden companion app you will need to download that from 
 
 Then do the following steps
 1. Find your league in the Madden companion app and click on it
-2. Navigate to Export data section
+2. Navigate to Export section
 3. Type in the madden exporter url. It will be on the Madden Data page of the exporter and be the following URL: https://mxport.herokuapp.com/USERNAME (again replace that with your username). *unfortunately you have to type this because EA is ass and wont let you copy and paste*
 4. choose league info, weekly stats, and scroll down on the week number to find All Weeks and choose that.
 5. Finally export!
@@ -33,6 +50,8 @@ Then do the following steps
 10. run the command, if you see `uploaded :)` then you are all set! if it fails, well contact me I will see what goes wrong :) 
 
 ## Commands
+
+`/league_export` - messages the URL to type in the Madden exporter
 
 `/import_league schedules teams` - imports the league into the bot. This only has to be done once per season! If you do it multiple times nothing bad happens tho! so if you want to update every playoff week that is okay
 
