@@ -22,7 +22,7 @@ Now the bot has been added to your discord server do the following:
 2. Open the Madden Companion App
 3. Find your league in the app and click on it
 4. Navigate to the Export section
-5. In the web url box, type in the export URL you were given. I am sorry its so long!! but type carefully :)
+5. In the web url box, type in the export URL you were given. I am sorry its so long!! but type carefully :) do not forget the last `=`!!!
 6. Check the league info, and weekly stats boxes
 7. For export week, export All Weeks (scroll to the bottom of the weeks!)
 8. Finally, export! Once it is done, the bot is all setup to use
