@@ -14,6 +14,12 @@ A discord bot to manage your madden leagues! To setup the bot see the [setup ins
 
 `/game_channels configure` - sets the category to create/clear game channels
 
+`/teams configure` - sets the channel to keep track of open teams
+
+`/teams assign` - assigns a discord user to a team, updates the teams message immediately
+
+`/teams open` - frees a team to be taken later, updates the teams message immediately
+
 `/create_game_channels week category` - *OBSOLETE SOON TO BE DELETED* This creates game channels for that specific week. It will only create game channels for the regular season and it will create them under the desired category
 
 `/clear_game_channels category` - *OBSOLETE SOON TO BE DELETED* this clears game channels under a category. it will not clear any channels that do not contain the word 'vs' so FW channels and such are OK
