@@ -26,4 +26,4 @@ A discord bot to manage your madden leagues! To setup the bot see the [setup ins
 
 `/clear_game_channels category` - *OBSOLETE SOON TO BE DELETED* this clears game channels under a category. it will not clear any channels that do not contain the word 'vs' so FW channels and such are OK
 
-**Note Game channels do not work in playoffs yet!e**
+**Note Game channels do not work in playoffs yet!**
