@@ -2,15 +2,11 @@
 
 ## Adding the bot to your server
 
-Add the snallabot to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=970091866450198548&permissions=268445712&scope=applications.commands%20bot). This will add the following slash commands: 
+Add the snallabot to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=970091866450198548&permissions=268445712&scope=applications.commands%20bot). 
 
-```
-/league_export
-/import_league
-/game_channels
-```
+## Setup your league
 
-## Add your madden league
+This step has to be done every SEASON of your league. Once you reach preseason week 1 you can do this setup again (any number of times after that it wont matter). 
 
 ### Recommended Way with Madden Companion App
 
