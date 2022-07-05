@@ -2,7 +2,7 @@
 
 ## Adding the bot to your server
 
-Add the snallabot to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=970091866450198548&permissions=268445712&scope=applications.commands%20bot). 
+Add the snallabot to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=970091866450198548&permissions=268446736&scope=bot%20applications.commands).
 
 ## Setup your league
 
