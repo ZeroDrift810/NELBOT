@@ -12,6 +12,8 @@ A discord bot to manage your madden leagues! To setup the bot see the [setup ins
 
 `/game_channels clear` - this clears game channels under the configured category. it will not clear any channels that do not contain the word 'vs' so FW channels and such are OK
 
+`/game_channels notify` - notifies each game channel to remind everyone to play their games. Optional parameter to just notify one channel
+
 `/game_channels configure` - sets the category to create/clear game channels
 
 `/teams configure` - sets the channel to keep track of open teams
