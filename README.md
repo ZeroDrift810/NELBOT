@@ -1,6 +1,8 @@
 # snallabot
 
-A discord bot to manage your madden leagues! To setup the bot see the [setup instructions](setup.md).
+Snallabot is a one-stop-shop to help manage your madden league! It is an easy to use bot that handles the menial parts of running your league so you can focus on what matters most, running fun and succesful leagues. With game channels and team management, snallabot's goal is to make your life easy! 
+
+To setup the bot see the [setup instructions](setup.md).
 
 ## Commands
 
