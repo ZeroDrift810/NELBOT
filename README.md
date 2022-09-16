@@ -40,6 +40,8 @@ To setup the bot see the [setup instructions](setup.md).
 
 `/streams reset` - resets all users back to 0 streams **DANGER**
 
+`/schedule` - shows the games scheduled for that week. Required `week` the week number (not playoffs)
+
 `/import_league schedules teams` - *OBSOLETE SOON TO BE DELETED* imports the league into the bot. This only has to be done once per season! If you do it multiple times nothing bad happens tho! so if you want to update every playoff week that is okay
 
 **Note Game channels do not work in playoffs yet!**
