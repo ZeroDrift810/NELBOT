@@ -47,3 +47,5 @@ To setup the bot see the [setup instructions](setup.md).
 `/schedule` - shows the games scheduled for that week. Required `week` the week number (not playoffs)
 
 **Note Game channels do not work in playoffs yet!**
+
+Need snallabot support? Join our [Discord](https://discord.gg/N5cTbEXrgq)!
