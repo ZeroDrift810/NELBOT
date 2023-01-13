@@ -16,4 +16,4 @@ These are the only things snallabot needs to function in your discord. The first
 
 ## Can I delete my data
 
-Yes you can. There is no command or operation for this to happen, you may contact me directly and I will immediately delete all your data. Again the only data stored is your user id, no information about your user is stored.
+Yes you can. You may contact me directly and I will immediately delete all your data or remove snallabot from your server, within 10 minutes your leagues data will be removed. 

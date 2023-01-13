@@ -14,6 +14,10 @@ To setup the bot see the [setup instructions](setup.md).
 
 `/game_channels notify` - notifies each game channel to remind everyone to play their games. Optional parameter to just notify one channel
 
+`/game_channels configure_notifier` - sets up snallabot notifier that will automatically track game channels
+
+`/game_channels off_notifier` - turns off snallabot notifier. 
+
 `/game_channels configure` - sets the category to create/clear game channels
 
 `/teams configure` - sets the channel to keep track of open teams
@@ -41,7 +45,5 @@ To setup the bot see the [setup instructions](setup.md).
 `/streams reset` - resets all users back to 0 streams **DANGER**
 
 `/schedule` - shows the games scheduled for that week. Required `week` the week number (not playoffs)
-
-`/import_league schedules teams` - *OBSOLETE SOON TO BE DELETED* imports the league into the bot. This only has to be done once per season! If you do it multiple times nothing bad happens tho! so if you want to update every playoff week that is okay
 
 **Note Game channels do not work in playoffs yet!**

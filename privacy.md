@@ -44,6 +44,8 @@ Snallabot only stores the following information about your discord server:
 - certain guild member user ids
 - message ids
 - channel ids
+- guild ids
+- role ids
 
 Snallabot stores the following information about your current madden league:
 
@@ -54,3 +56,7 @@ Snallabot stores the following information about your current madden league:
 ## Consent
 
 By using our website, you hereby consent to our Privacy Policy and agree to its terms.
+
+## Deletion of data
+
+Snallabot deletes all data regarding your league once the bot is removed from your server. 
