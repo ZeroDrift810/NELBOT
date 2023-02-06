@@ -10,7 +10,7 @@ Snallabot provides an easy interface to assign teams for your league.
 4. You are now setup to use teams!
 5. use `/teams open` with the team name, city, or abbreviation to free a team
 
-if you run into permission issues, snallabot should let you know. Make sure snallabot can send messages in the channel you provde in step 1. Snallabot will also need to server member permissions to read users and roles. 
+if you run into permission issues, snallabot should let you know. Make sure snallabot can send messages in the channel you provide in step 1. Snallabot will also need to server member permissions to read users and roles. 
 
 ## Setting up game channel tracking
 
