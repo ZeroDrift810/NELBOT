@@ -20,3 +20,6 @@ Now the bot has been added to your discord server do the following:
 6. Check the league info, and weekly stats boxes
 7. For export week, export All Weeks (scroll to the bottom of the weeks!)
 8. Finally, export! Once it is done, the bot is all setup to use
+
+
+to learn how to setup snallabot core features, follow our [feature_setup](feature_setup.md).
