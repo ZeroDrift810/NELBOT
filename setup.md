@@ -22,4 +22,4 @@ Now the bot has been added to your discord server do the following:
 8. Finally, export! Once it is done, the bot is all setup to use
 
 
-to learn how to setup snallabot core features, follow our [feature_setup](feature_setup.md).
+to learn how to setup snallabot core features, follow our [feature setup](feature_setup.md).
