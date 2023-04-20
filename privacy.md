@@ -53,10 +53,12 @@ Snallabot stores the following information about your current madden league:
 - the current teams in the league
 - the online ids of the users in the league at the start of the season
 
+Snallabot will be able to read message content, but it does not save it anywhere and will only be use inside of Discord itself.
+
 ## Consent
 
 By using our website, you hereby consent to our Privacy Policy and agree to its terms.
 
 ## Deletion of data
 
-Snallabot deletes all data regarding your league once the bot is removed from your server. 
+Snallabot deletes all data regarding your league once the bot is removed from your server.
