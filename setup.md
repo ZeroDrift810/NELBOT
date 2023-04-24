@@ -2,7 +2,7 @@
 
 ## Adding the bot to your server
 
-Add the snallabot to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=970091866450198548&permissions=268438608&scope=bot%20applications.commands).
+Add the snallabot to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=970091866450198548&permissions=310311726160&scope=bot%20applications.commands).
 
 ## Setup your league
 
@@ -20,6 +20,5 @@ Now the bot has been added to your discord server do the following:
 6. Check the league info, and weekly stats boxes
 7. For export week, export All Weeks (scroll to the bottom of the weeks!)
 8. Finally, export! Once it is done, the bot is all setup to use
-
 
 to learn how to setup snallabot core features, follow our [feature setup](feature_setup.md).
