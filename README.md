@@ -1,6 +1,6 @@
 # snallabot
 
-Snallabot is a one-stop-shop to help manage your madden league! It is an easy to use bot that handles the menial parts of running your league so you can focus on what matters most, running fun and succesful leagues. With game channels and team management, snallabot's goal is to make your life easy! 
+Snallabot is a one-stop-shop to help manage your madden league! It is an easy to use bot that handles the menial parts of running your league so you can focus on what matters most, running fun and succesful leagues. With game channels and team management, snallabot's goal is to make your life easy!
 
 To setup the bot see the [setup instructions](setup.md). Need snallabot support? Join our [Discord](https://discord.gg/N5cTbEXrgq)!
 
@@ -16,7 +16,7 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/game_channels configure_notifier` - sets up snallabot notifier that will automatically track game channels
 
-`/game_channels off_notifier` - turns off snallabot notifier. 
+`/game_channels off_notifier` - turns off snallabot notifier.
 
 `/game_channels configure` - sets the category to create/clear game channels
 
@@ -45,6 +45,8 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 `/streams reset` - resets all users back to 0 streams **DANGER**
 
 `/schedule` - shows the games scheduled for that week. Required `week` the week number (not playoffs)
+
+`/logger configure` - configures snallabot logger for game channels. Optional `on` to turn it on and off, default to on
 
 **Note Game channels do not work in playoffs yet!**
 
