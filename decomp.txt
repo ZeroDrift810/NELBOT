@@ -1,0 +1,358 @@
+BlazePtr object
+
+has sendRPC, Callback, and does the lifting of actually sending RPC via http request
+
+
+
+GET https://159.153.191.240/connect/auth?response_type=code&hide_create=true&redirect_uri=http://127.0.0.1/success&machineProfileKey=1d6830c75f0f5a26&release_type=prod&client_id=MaddenCompanionApp19
+
+response: location has code code=QUOxAFs13dquGCkB74IsBbuqdXhoCJHsybMdANL0AQ
+------------------------------------------------------------------------------
+
+POST token - https://159.153.191.240/connect/token
+
+request: 
+client_secret: U02zL2khwlgFdODLWCyLPmccOc5EiPBBYcEwCqKDTWBrZj2Fwcx4b4Zd9rsA6lHLkIU4qlVvNh84olij
+grant_type:    authorization_code
+code:          QUOxAFs13dquGCkB74IsBbuqdXhoCJHsybMdANL0AQ
+redirect_uri:  http://127.0.0.1/success
+release_type:  prod
+client_id:     MaddenCompanionApp19
+
+response:
+{
+    "access_token": "QVQxOjMuMDozLjA6MjQwOmFrb0NISWxyM0ViaGh4Sm8yTVFhcEd5d2tNMVBzYW51RE9COjc5MTk1OnFlY2Jv",
+    "expires_in": 14399,
+    "id_token": null,
+    "refresh_token": "UlQxOjMuMDozLjA6MjAxNjA6QjRpZTdHM010cjlGWThRb1RLSExmQTlsMEx0RjRNSW5JOjc5MTk1OnFlY2Jv.K0KL9NbV8KSGHdmawiaTtRCmNK",
+    "token_type": "Bearer"
+}
+------------------------------------------------------------------------------
+token info - https://159.153.191.240/connect/tokeninfo?access_token=QVQxOjMuMDozLjA6MjQwOmFrb0NISWxyM0ViaGh4Sm8yTVFhcEd5d2tNMVBzYW51RE9COjc5MTk1OnFlY2Jv
+{
+    "client_id": "MaddenCompanionApp19",
+    "expires_in": 14399,
+    "persona_id": null,
+    "pid_id": "2458179195",
+    "pid_type": "NUCLEUS",
+    "scope": "offline security.challenge signin search.identity basic.identity basic.persona basic.entitlement",
+    "user_id": "2458179195"
+}
+------------------------------------------------------------------------------
+persona - https://159.153.191.238/proxy/identity/pids/2458179195/personas?access_token=QVQxOjMuMDozLjA6MjQwOmFrb0NISWxyM0ViaGh4Sm8yTVFhcEd5d2tNMVBzYW51RE9COjc5MTk1OnFlY2Jv&status=ACTIVE
+
+respose: 
+{
+    "personas": {
+        "persona": [
+            {
+                "dateCreated": "2013-04-27T16:28Z",
+                "displayName": "snallapa",
+                "isVisible": true,
+                "lastAuthenticated": "",
+                "name": "snallapa",
+                "namespaceName": "cem_ea_id",
+                "personaId": 872284979,
+                "pidId": 2458179195,
+                "showPersona": "NO_ONE",
+                "status": "ACTIVE",
+                "statusReasonCode": ""
+            },
+            {
+                "dateCreated": "2012-02-13T22:35Z",
+                "displayName": "snallapa",
+                "isVisible": true,
+                "lastAuthenticated": "2022-09-24T19:19Z",
+                "name": "snallapa",
+                "namespaceName": "ps3",
+                "personaId": 417448296,
+                "pidId": 2458179195,
+                "showPersona": "EVERYONE",
+                "status": "ACTIVE",
+                "statusReasonCode": "NONE"
+            }
+        ]
+    }
+}
+------------------------------------------------------------------------------
+entitlement - https://159.153.191.238/proxy/identity/pids/2458179195/entitlements?status=ACTIVE
+
+response:
+{
+    "entitlements": {
+        "entitlement": [
+            {
+                "entitlementId": 1014818979195,
+                "entitlementSource": "319038",
+                "entitlementTag": "ONLINE_ACCESS",
+                "entitlementType": "ONLINE_ACCESS",
+                "grantDate": "2022-08-19T14:42Z",
+                "groupName": "MADDEN_23PS5",
+                "isConsumable": false,
+                "lastModifiedDate": "2022-08-19T14:42Z",
+                "originPermissions": 0,
+                "pidUri": "/pids/2458179195",
+                "productCatalog": "",
+                "productId": "",
+                "projectId": "319038",
+                "status": "ACTIVE",
+                "statusReasonCode": "",
+                "terminationDate": "",
+                "useCount": 0,
+                "version": 0
+            },
+            {
+                "entitlementId": 1014525379195,
+                "entitlementSource": "319038",
+                "entitlementTag": "BETA_ONLINE_ACCESS",
+                "entitlementType": "ONLINE_ACCESS",
+                "grantDate": "2022-06-18T4:2Z",
+                "groupName": "MADDEN_23PS5",
+                "isConsumable": false,
+                "lastModifiedDate": "2022-06-18T4:2Z",
+                "originPermissions": 0,
+                "pidUri": "/pids/2458179195",
+                "productCatalog": "",
+                "productId": "",
+                "projectId": "319038",
+                "status": "ACTIVE",
+                "statusReasonCode": "",
+                "terminationDate": "",
+                "useCount": 0,
+                "version": 0
+            },
+            {
+                "entitlementId": 1013632479195,
+                "entitlementSource": "319132",
+                "entitlementTag": "ONLINE_ACCESS",
+                "entitlementType": "ONLINE_ACCESS",
+                "grantDate": "2021-08-27T23:38Z",
+                "groupName": "MADDEN_22PS5",
+                "isConsumable": false,
+                "lastModifiedDate": "2021-08-27T23:38Z",
+                "originPermissions": 0,
+                "pidUri": "/pids/2458179195",
+                "productCatalog": "",
+                "productId": "",
+                "projectId": "319132",
+                "status": "ACTIVE",
+                "statusReasonCode": "",
+                "terminationDate": "",
+                "useCount": 0,
+                "version": 0
+            }
+        ]
+    }
+}
+------------------------------------------------------------------------------
+connect with persona - https://159.153.191.240/connect/auth?response_type=code&redirect_uri=http://127.0.0.1/success&machineProfileKey=1d6830c75f0f5a26&release_type=prod&access_token=QVQxOjMuMDozLjA6MjQwOmFrb0NISWxyM0ViaGh4Sm8yTVFhcEd5d2tNMVBzYW51RE9COjc5MTk1OnFlY2Jv&persona_id=417448296&client_id=MaddenCompanionApp19
+query:
+response_type:     code
+redirect_uri:      http://127.0.0.1/success
+machineProfileKey: 1d6830c75f0f5a26
+release_type:      prod
+access_token:      QVQxOjMuMDozLjA6MjQwOmFrb0NISWxyM0ViaGh4Sm8yTVFhcEd5d2tNMVBzYW51RE9COjc5MTk1OnFlY2Jv
+persona_id:        417448296
+client_id:         MaddenCompanionApp19
+
+get back different code: QUOxAFs1XZLSjAAcXcFso2XOKa04CQOL0PL1I2Sv
+------------------------------------------------------------------------------
+https://159.153.191.238/proxy/identity/pids/2458179195/entitlements?status=ACTIVE
+query
+{
+    "entitlements": {
+        "entitlement": [
+            {
+                "entitlementId": 1014818979195,
+                "entitlementSource": "319038",
+                "entitlementTag": "ONLINE_ACCESS",
+                "entitlementType": "ONLINE_ACCESS",
+                "grantDate": "2022-08-19T14:42Z",
+                "groupName": "MADDEN_23PS5",
+                "isConsumable": false,
+                "lastModifiedDate": "2022-08-19T14:42Z",
+                "originPermissions": 0,
+                "pidUri": "/pids/2458179195",
+                "productCatalog": "",
+                "productId": "",
+                "projectId": "319038",
+                "status": "ACTIVE",
+                "statusReasonCode": "",
+                "terminationDate": "",
+                "useCount": 0,
+                "version": 0
+            },
+            {
+                "entitlementId": 1014525379195,
+                "entitlementSource": "319038",
+                "entitlementTag": "BETA_ONLINE_ACCESS",
+                "entitlementType": "ONLINE_ACCESS",
+                "grantDate": "2022-06-18T4:2Z",
+                "groupName": "MADDEN_23PS5",
+                "isConsumable": false,
+                "lastModifiedDate": "2022-06-18T4:2Z",
+                "originPermissions": 0,
+                "pidUri": "/pids/2458179195",
+                "productCatalog": "",
+                "productId": "",
+                "projectId": "319038",
+                "status": "ACTIVE",
+                "statusReasonCode": "",
+                "terminationDate": "",
+                "useCount": 0,
+                "version": 0
+            },
+            {
+                "entitlementId": 1013632479195,
+                "entitlementSource": "319132",
+                "entitlementTag": "ONLINE_ACCESS",
+                "entitlementType": "ONLINE_ACCESS",
+                "grantDate": "2021-08-27T23:38Z",
+                "groupName": "MADDEN_22PS5",
+                "isConsumable": false,
+                "lastModifiedDate": "2021-08-27T23:38Z",
+                "originPermissions": 0,
+                "pidUri": "/pids/2458179195",
+                "productCatalog": "",
+                "productId": "",
+                "projectId": "319132",
+                "status": "ACTIVE",
+                "statusReasonCode": "",
+                "terminationDate": "",
+                "useCount": 0,
+                "version": 0
+            }
+        ]
+    }
+}
+------------------------------------------------------------------------------
+POST https://159.153.191.240/connect/token
+request: 
+client_secret: U02zL2khwlgFdODLWCyLPmccOc5EiPBBYcEwCqKDTWBrZj2Fwcx4b4Zd9rsA6lHLkIU4qlVvNh84olij
+grant_type:    authorization_code
+code:          QUOxAFs1XZLSjAAcXcFso2XOKa04CQOL0PL1I2Sv
+redirect_uri:  http://127.0.0.1/success
+release_type:  prod
+client_id:     MaddenCompanionApp19
+response:
+{
+    "access_token": "QVQxOjMuMDozLjA6MjQwOlo5ZXlCc2c5RVBzTjNRazdzVFA5WU81YU03SWxFY0loaGZUOjc5MTk1OnFlY2Jv",
+    "expires_in": 14399,
+    "id_token": null,
+    "refresh_token": "UlQxOjMuMDozLjA6MjAxNjA6enhWRjFVVGkzUkdSZWxKWjZVWXZHV2k3SjNxWDAxdnZHOjc5MTk1OnFlY2Jv.28xPQ9ibPh89Kqunv7x1KeZGHH",
+    "token_type": "Bearer"
+}
+------------------------------------------------------------------------------
+https://159.153.191.240/connect/tokeninfo?access_token=QVQxOjMuMDozLjA6MjQwOlo5ZXlCc2c5RVBzTjNRazdzVFA5WU81YU03SWxFY0loaGZUOjc5MTk1OnFlY2Jv
+{
+    "client_id": "MaddenCompanionApp19",
+    "expires_in": 14398,
+    "persona_id": 417448296,
+    "pid_id": "1000067179195",
+    "pid_type": "PS3",
+    "scope": "offline security.challenge signin search.identity basic.identity basic.persona basic.entitlement",
+    "user_id": "2458179195"
+}
+------------------------------------------------------------------------------
+https://159.153.191.240/connect/auth?response_type=code&release_type=prod&access_token=QVQxOjMuMDozLjA6MjQwOlo5ZXlCc2c5RVBzTjNRazdzVFA5WU81YU03SWxFY0loaGZUOjc5MTk1OnFlY2Jv&persona_id=417448296&client_id=MADDEN_23_PS5_BLZ_SERVER
+response: http://127.0.0.1/success?code=QUOxAFs1WVi8_rs3MMiapkWWdQXu8LXrx-a4ko0C
+------------------------------------------------------------------------------
+POST https://54.171.184.56/nv2/auth?skuid=MAD23PS5&accesstoken=QVQxOjMuMDozLjA6MjQwOlo5ZXlCc2c5RVBzTjNRazdzVFA5WU81YU03SWxFY0loaGZUOjc5MTk1OnFlY2Jv
+
+request: 
+skuid:       MAD23PS5
+accesstoken: QVQxOjMuMDozLjA6MjQwOlo5ZXlCc2c5RVBzTjNRazdzVFA5WU81YU03SWxFY0loaGZUOjc5MTk1OnFlY2Jv
+
+headers response:
+EASW-Session:                   LsLnyA7eTZaiC0JYKc8riI2Va8zRsati
+EASW-Token-Version:             2
+EASW-Nucleus-Persona:           417448296
+EASW-Nucleus-User:              2458179195
+EASW-Nucleus-Namespace:         ps3
+EASW-Nucleus-Display-Name:      snallapa
+EASW-Userid:                    90204308
+Easw-Session-Data-Nucleus-Auth
+Token:
+Easw-Session-Data-Encrypted-Nu
+cleus-Token:
+EASW-Token:                     OHTycLiZ5qMDmcgixinTAwO9Zqi%2FxWFz8AsCy%2BzA5nKu1hDPgzsd6CVE9qYq5wu7CIU5SaquAYFm7BvhRaBQgiUb8pd69QW8mgIJWxgMQBI074iDR5N%2BkqEf4Dylapz7rnRiEuQ6IFZm1lqxzEhji
+                                O6MUHRDU0S8ZJ%2BMa%2BAEvSXRotH7E8jRe3HpUlPw%2B%2FKk%2FMHqSwF4IDdgj2eeS62eMNyWUhe6CZjTLGqoUvsxpyQ%3D
+EASW-Version:                   3.5
+X-Auth-Security-State:
+X-Nucleus-User-State:
+EASW-Token-Expiry-Time:         14400000000
+x-envoy-upstream-service-time:  217
+------------------------------------------------------------------------------
+https://159.153.191.240/connect/auth?response_type=code&release_type=prod&access_token=QVQxOjMuMDozLjA6MjQwOlo5ZXlCc2c5RVBzTjNRazdzVFA5WU81YU03SWxFY0loaGZUOjc5MTk1OnFlY2Jv&persona_id=417448296&client_id=MADDEN_23_PS5_BLZ_SERVER
+response_type: code
+release_type:  prod
+access_token:  QVQxOjMuMDozLjA6MjQwOlo5ZXlCc2c5RVBzTjNRazdzVFA5WU81YU03SWxFY0loaGZUOjc5MTk1OnFlY2Jv
+persona_id:    417448296
+client_id:     MADDEN_23_PS5_BLZ_SERVER
+
+http://127.0.0.1/success?code=QUOxAFs1fbtCuYn2rZUo8dnk02v5oL-Wc-91E_QV
+------------------------------------------------------------------------------
+https://159.153.64.202/wal/authentication/login
+headers:
+
+Accept:             application/json
+X-BLAZE-VOID-RESP:  XML
+X-Application-Key:  MADDEN-MCA
+X-BLAZE-ID:         madden-2023-ps5-mca
+
+request: 
+{
+    "authCode": "QUOxAFs1fbtCuYn2rZUo8dnk02v5oL-Wc-91E_QV"
+}
+response:
+{
+    "isAnonymous": false,
+    "isOfLegalContactAge": true,
+    "isUnderage": false,
+    "userLoginInfo": {
+        "accountId": 2458179195,
+        "blazeId": 417448296,
+        "geoIpSucceeded": true,
+        "isFirstConsoleLogin": false,
+        "isFirstLogin": false,
+        "lastLoginDateTime": 1664047179,
+        "personaDetails": {
+            "displayName": "snallapa",
+            "extId": 0,
+            "lastAuthenticated": 0,
+            "personaId": 417448296,
+            "status": "UNKNOWN"
+        },
+        "platformInfo": {
+            "clientPlatform": "ps5",
+            "eaIds": {
+                "nucleusAccountId": 2458179195,
+                "originPersonaId": 872284979,
+                "originPersonaName": "snallapa"
+            },
+            "externalIds": {
+                "psnAccountId": 7573657078470043715,
+                "stadiaAccountId": 0,
+                "steamAccountId": 0,
+                "switchId": "",
+                "xblAccountId": 0
+            }
+        },
+        "sessionKey": "0000004f6ea1bfe9_dFqMLo1aH3nXiG5PasNggQdqcb9f3CsXBaDi1lbzch4="
+    }
+}
+
+------------------------------------------------------------------------------
+https://wal2.tools.gos.bio-iad.ea.com/wal/mca/Process
+headers:
+X-BLAZE-VOID-RESP:  XML
+X-Application-Key:  MADDEN-MCA
+BLAZE-SESSION:      0000004f6ea1bfe9_dFqMLo1aH3nXiG5PasNggQdqcb9f3CsXBaDi1lbzch4=
+X-BLAZE-ID:         madden-2023-ps5-mca
+{
+    "apiVersion": 2,
+    "clientDevice": 3,
+    "requestInfo": "{\"componentId\":2060,\"componentName\":\"careermode\",\"messageAuthData\":{\"authData\":\"CLsyvoAmH+Yeq9vL2SsvnO57VKTJYh3dG7bixKQSKbe4BE7F1yYe9w6q19vpAz/f9nBP0tcmDv4epd
+fh+Whhyf12QtPDNlWkAg==\",\"authType\":17039362,\"authCode\":\"ry4GI11YhS3plyecIoSxDw==\"},\"deviceId\":\"1d6830c75f0f5a26\",\"messageExpirationTime\":1664065717,\"ipAddress\":\"127.0.0.1\",
+\"commandId\":801,\"commandName\":\"Mobile_GetMyLeagues\",\"requestPayload\":\"{}\"}"
+}
