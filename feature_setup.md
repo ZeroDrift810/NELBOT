@@ -1,5 +1,16 @@
 # Setting up Snallabot features
 
+## Setting up dashboard
+
+Once the bot has been added to your discord do the following:
+
+1. Run `/dashboard` to open your snallabot dashboard
+2. Follow the directions to connect your league to snallabot. Let me know if you have any issues doing so
+3. Once you reach your dashboard, you are all set up.
+4. [Optional] Add more bot export links by clicking the `Add Export` button. Once you add the Url, make sure you check the right exports and hit the check mark to confirm!
+5. The dashboard is all setup to use! Auto exporting is on for all the exports that have that option checked
+
+
 ## Setting up teams
 
 Snallabot provides an easy interface to assign teams for your league. 
