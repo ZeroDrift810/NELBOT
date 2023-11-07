@@ -48,6 +48,6 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/logger configure` - configures snallabot logger for game channels. Optional `on` to turn it on and off, default to on
 
-`/dashbaord` - the link to open your snallabot dashboard
+`/dashboard` - the link to open your snallabot dashboard
 
 Need snallabot support? Join our [Discord](https://discord.gg/N5cTbEXrgq)!
