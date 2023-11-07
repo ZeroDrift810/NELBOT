@@ -10,6 +10,14 @@ Once the bot has been added to your discord do the following:
 4. [Optional] Add more bot export links by clicking the `Add Export` button. Once you add the Url, make sure you check the right exports and hit the check mark to confirm!
 5. The dashboard is all setup to use! Auto exporting is on for all the exports that have that option checked
 
+Auto Export works in the following situations:
+
+1. When you do `/game_channels clear` it will export the week that was advanced
+2. When you are using snallabot game channel tracking, everytime the channel is cleared it exports the current week
+3. If you are doing `/game_channels create` it will export the current week if it does not have the information for that week
+
+So the recommendation is to advance the league in Madden, then do your `/game_channels clear` and `/game_channels create` to make sure it exports all your results from the previous week!
+
 
 ## Setting up teams
 
