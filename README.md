@@ -50,4 +50,10 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/dashboard` - the link to open your snallabot dashboard
 
+`/export current` - exports the current week through the snallabot dashboard
+
+`/export week` - exports the specified week through the snallabot dashboard
+
+`/export all_weeks` - exports the all weeks through the snallabot dashboard
+
 Need snallabot support? Join our [Discord](https://discord.gg/N5cTbEXrgq)!
