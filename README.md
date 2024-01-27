@@ -2,7 +2,7 @@
 
 Snallabot is a one-stop-shop to help manage your madden league! It is an easy to use bot that handles the menial parts of running your league so you can focus on what matters most, running fun and succesful leagues. With game channels and team management, snallabot's goal is to make your life easy!
 
-To setup the bot see the [setup instructions](setup.md). Need snallabot support? Join our [Discord](https://discord.gg/N5cTbEXrgq)!
+To setup the bot see the [setup instructions](setup.md). Need snallabot support? Join our [Discord](https://discord.gg/WF3a7Kwn)!
 
 ## Commands
 
@@ -56,4 +56,4 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/export all_weeks` - exports the all weeks through the snallabot dashboard
 
-Need snallabot support? Join our [Discord](https://discord.gg/N5cTbEXrgq)!
+Need snallabot support? Join our [Discord](https://discord.gg/WF3a7Kwn)!
