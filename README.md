@@ -44,6 +44,14 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/streams reset` - resets all users back to 0 streams **DANGER**
 
+`/streams broadcast` - configures the broadcast with the keyword to filter titles on, channel to display live streams, and an optional role to mention
+
+`/streams youtube add` - add a new youtube channel to watch broadcasts for
+
+`/streams youtube remove` - remove a youtube channel
+
+`/streams youtube list` - show your current youtube channels
+
 `/schedule` - shows the games scheduled for that week. Required `week` the week number (not playoffs)
 
 `/logger configure` - configures snallabot logger for game channels. Optional `on` to turn it on and off, default to on
