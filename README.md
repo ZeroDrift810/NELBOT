@@ -8,17 +8,13 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/league_export` - messages the URL to type in the Madden exporter
 
-`/game_channels create` - This creates game channels for that specific week. It will only create game channels for the regular season and it will create them under the configured category
+`/game_channels create` - This creates game channels for that specific week. It will only create game channels for the regular season and it will create them under the configured category, you can override the category with the optional parameter
 
-`/game_channels clear` - this clears game channels under the configured category. it will not clear any channels that do not contain the word 'vs' so FW channels and such are OK
+`/game_channels clear` - this clears all your game channels
 
-`/game_channels notify` - notifies each game channel to remind everyone to play their games. Optional parameter to just notify one channel
+`/game_channels notify` - notifies each game channel to remind everyone to play their games
 
-`/game_channels configure_notifier` - sets up snallabot notifier that will automatically track game channels
-
-`/game_channels off_notifier` - turns off snallabot notifier.
-
-`/game_channels configure` - sets the category to create/clear game channels
+`/game_channels configure` - sets up the bot to do game channels
 
 `/teams configure` - sets the channel to keep track of open teams
 
@@ -44,13 +40,19 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/streams reset` - resets all users back to 0 streams **DANGER**
 
-`/streams broadcast` - configures the broadcast with the keyword to filter titles on, channel to display live streams, and an optional role to mention
+`/broadcasts configure` - configures the broadcast with the keyword to filter titles on, channel to display live streams, and an optional role to mention
 
-`/streams youtube add` - add a new youtube channel to watch broadcasts for
+`/broadcasts youtube add` - add a new youtube channel to watch broadcasts for
 
-`/streams youtube remove` - remove a youtube channel
+`/broadcasts youtube remove` - remove a youtube channel
 
-`/streams youtube list` - show your current youtube channels
+`/broadcasts youtube list` - show your current youtube channels
+
+`/broadcasts twitch add` - add a new twitch channel to watch broadcasts for
+
+`/broadcasts twitch remove` - remove a twitch channel
+
+`/broadcasts twitch list` - show your current twitch channels
 
 `/schedule` - shows the games scheduled for that week. Required `week` the week number (not playoffs)
 
