@@ -31,10 +31,10 @@ Snallabot provides an easy interface to assign teams for your league.
 
 if you run into permission issues, snallabot should let you know. Make sure snallabot can send messages in the channel you provide in step 1. Snallabot will also need to server member permissions to read users and roles. 
 
-## Setting up game channel tracking
+## Setting up game channels
 
-1. first run `/game_channels configure notifier` with the fw channel, the amount of hours you would like snallabot to wait before reminding user to schedule their game, and an optional admin role for fw confirmations
-2. run `/game_channels notify` to start game channel management!
+1. /game_channels configure to setup game channels. youll need: a category to create in, admin role, and a wait ping that will schedule reminders, and a scoreboard channel. 
+2. /game_channels create will create the channels for your week. make sure all the steps complete with a checkmark
 3. [Optional] Want to save your game channels? Turn on snallabot logger! run `/logger configure` with the channel you want to output the game channel logs in. This might be noisy so be careful!
 
 Snallabot wil need create channel, edit channel, create message, and server member permissions to track game channels. 
