@@ -1,24 +1,5 @@
 # Setting up Snallabot features
 
-## Setting up dashboard
-
-Once the bot has been added to your discord do the following:
-
-1. Run `/dashboard` to open your snallabot dashboard
-2. Follow the directions to connect your league to snallabot. Let me know if you have any issues doing so
-3. Once you reach your dashboard, you are all set up.
-4. [Optional] Add more bot export links by clicking the `Add Export` button. Once you add the Url, make sure you check the right exports and hit the check mark to confirm!
-5. The dashboard is all setup to use! Auto exporting is on for all the exports that have that option checked
-
-Auto Export works in the following situations:
-
-1. When you do `/game_channels clear` it will export the week that was advanced
-2. When you are using snallabot game channel tracking, everytime the channel is cleared it exports the current week
-3. If you are doing `/game_channels create` it will export the current week if it does not have the information for that week
-
-So the recommendation is to advance the league in Madden, then do your `/game_channels clear` and `/game_channels create` to make sure it exports all your results from the previous week!
-
-
 ## Setting up teams
 
 Snallabot provides an easy interface to assign teams for your league. 
@@ -49,3 +30,12 @@ Snallabot wil need create channel, edit channel, create message, and server memb
 1. first run `/streams broadcast configure` with the keyword for your league and the channel you want broadcasts in. Optional role for anyone to be mentioned
 2. then add your channels with Youtube with, `/streams youtube add`
 
+## Setting up dashboard
+
+Once the bot has been added to your discord do the following:
+
+1. Run `/dashboard` to open your snallabot dashboard
+2. Follow the directions to connect your league to snallabot. Let me know if you have any issues doing so
+3. Once you reach your dashboard, you are all set up.
+4. [Optional] Add more bot export links by clicking the `Add Export` button. Once you add the Url, make sure you check the right exports and hit the check mark to confirm!
+5. The dashboard is all setup to use! Auto exporting is on for all the exports that have that option checked, this continously keeps checking to make sure everything is up to date. 
