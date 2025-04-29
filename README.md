@@ -1,6 +1,9 @@
 # snallabot
 
-Snallabot is a one-stop-shop to help manage your madden league! It is an easy to use bot that handles the menial parts of running your league so you can focus on what matters most, running fun and succesful leagues. With game channels and team management, snallabot's goal is to make your life easy!
+Snallabot started as a one-stop-shop to help manage your madden league! It is an easy to use bot that handles the menial parts of running your league so you can focus on what matters most, running fun and successful leagues. Easy setup, game channels, team management, and youtube/twitch broadcasts are key features that make your life easy. 
+
+Snallabot is a free Discord bot for anyone to use, and is expanding to be an open source solution to aid other developers in helping the Madden community. Snallabot makes no  profit so is completely reliant on your support! Join our [Discord](https://discord.gg/zbx7NB4PX7) to find out more information on how you can support Snallabot.
+
 
 To setup the bot see the [setup instructions](setup.md). Need snallabot support? Join our [Discord](https://discord.gg/zbx7NB4PX7)!
 
