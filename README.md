@@ -69,4 +69,4 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/export all_weeks` - exports the all weeks through the snallabot dashboard
 
-Need snallabot support? Join our [Discord](https://discord.gg/Dc9pTGg9Hc)https://discord.gg/Dc9pTGg9Hc!
+Need snallabot support? Join our [Discord](https://discord.gg/Dc9pTGg9Hc)!
