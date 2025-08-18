@@ -69,4 +69,8 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/export all_weeks` - exports the all weeks through the snallabot dashboard
 
+`/player get` - searches a player in your league
+
+`/player list` - lists players in your league
+
 Need snallabot support? Join our [Discord](https://discord.gg/Dc9pTGg9Hc)!
