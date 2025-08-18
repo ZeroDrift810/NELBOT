@@ -27,8 +27,8 @@ Snallabot wil need create channel, edit channel, create message, and server memb
 
 ## Setting up broadcasts
 
-1. first run `/streams broadcast configure` with the keyword for your league and the channel you want broadcasts in. Optional role for anyone to be mentioned
-2. then add your channels with Youtube with, `/streams youtube add`
+1. first run `/broadcasts configure` with the keyword for your league and the channel you want broadcasts in. Optional role for anyone to be mentioned
+2. then add your channels with Youtube with, `/broadcasts youtube add` or Twitch with `/broadcasts twitch add`
 
 ## Setting up dashboard
 
