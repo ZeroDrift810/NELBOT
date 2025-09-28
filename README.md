@@ -24,7 +24,7 @@ To setup the bot see the [setup instructions](setup.md). Need snallabot support?
 
 `/teams assign` - assigns a discord user to a team, updates the teams message immediately
 
-`/teams open` - frees a team to be taken later, updates the teams message immediately
+`/teams free` - frees a team to be taken later, updates the teams message immediately
 
 `/waitlist list` - lists the current waitlist
 
