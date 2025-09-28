@@ -1,5 +1,7 @@
 # Setting up Snallabot features
 
+We recommend to first setup teams, then setup game channels. All other features of the bot are optional
+
 ## Setting up teams
 
 Snallabot provides an easy interface to assign teams for your league. 
